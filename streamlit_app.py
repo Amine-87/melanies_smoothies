@@ -48,7 +48,7 @@ if ingredients_list:
     #st.write(my_insert_stmt)
     
 
-    if time_to_insert = st.button('Submit Order')
+    if time_to_insert == st.button('Submit Order')
 
     if ingredients_string:
         session.sql(my_insert_stmt).collect()
